@@ -1,0 +1,26 @@
+/**
+*Ionic 4 Taxi Booking Complete App (https://store.enappd.com/product/taxi-booking-complete-dashboard)
+*
+* Copyright © 2019-present Enappd. All rights reserved.
+*
+* This source code is licensed as per the terms found in the
+* LICENSE.md file in the root directory of this source tree.
+*/
+
+export const environment = {
+  production: false,
+  //add your firebase Project configuration
+  // Take help from this Blog to setup firbase config:- https://enappd.com/blog/how-to-integrate-firebase-in-ionic-4-apps/23/
+  config: {
+    apiKey: "AIzaSyD4QJQn8taKoIjDovIggk1B7HQ7H6NEF8w",
+    authDomain: "unicar-platform.firebaseapp.com",
+    databaseURL: "https://unicar-platform.firebaseio.com",
+    projectId: "unicar-platform",
+    storageBucket: "unicar-platform.appspot.com",
+    messagingSenderId: "970904163480",
+    appId: "1:970904163480:web:5e7b93488cf4018bafeced",
+    measurementId: "G-VCLS6N4XB4"
+  }
+};
+
+
